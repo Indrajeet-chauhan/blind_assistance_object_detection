@@ -1,0 +1,14 @@
+START HERE — Object Detection for Blind Assistance
+
+1. Extract this ZIP.
+2. Open the extracted folder in VS Code.
+3. In PowerShell, run:
+   py -3.11 -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   python -m pip install --upgrade pip
+   pip install -r requirements.txt
+   python app.py
+4. Open http://127.0.0.1:5000
+
+Use a webcam. The first run needs internet to download the YOLO model.
+This is a learning prototype, not a certified mobility aid.
